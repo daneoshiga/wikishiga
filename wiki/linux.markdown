@@ -18,3 +18,8 @@ Comandos Úteis
 
     #!/bin/bash
     ps aux | grep [nome-processo]
+
+### Reiniciar o apache###
+
+    #!/bin/bash
+    service httpd restart
