@@ -1,1 +1,11 @@
-{}
+wiki-name: Wiki Shiga 
+
+wiki-dir: "."
+static-dir: ".static"
+
+markdown:
+    extensions:
+        - codehilite
+        - def_list
+        - headerid
+        - toc
