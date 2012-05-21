@@ -19,3 +19,8 @@ arquivo ~/.my.cnf
 
     [client]
     pager = less -niSFX
+
+###Acompanhamento processos do mysql
+
+    :::bash
+    watch -n1 "mysql -ppassw0rd mya2billing -e 'show full processlist'"
