@@ -4,7 +4,7 @@ Mysql
 Comandos Úteis
 --------------
 
-#Definindo o less como pager
+###Definindo o less como pager
 
     :::mysql
     pager less -SFXni
