@@ -7,11 +7,11 @@ Comandos Úteis
 ###Definindo o less como pager
 
     :::mysql
-    pager less -SFXni
+    mysql> pager less -SFXni
 
 Ou então chamar o cliente mysql já passando o less como parâmetro
 
-    :::bash
+    #!/bin/bash
     mysql --pager='less -SFXni'
 
 Para tornar essa opção padrão no console da própria máquina, adicionar no
@@ -22,5 +22,5 @@ arquivo ~/.my.cnf
 
 ###Acompanhamento processos do mysql
 
-    :::bash
+    #!/bin/bash
     watch -n1 "mysql -ppassw0rd mya2billing -e 'show full processlist'"
