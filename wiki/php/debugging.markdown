@@ -1,13 +1,13 @@
 Debugging
 =========
 
-###Erro 500 Internal Server Error###
+##Erro 500 Internal Server Error##
 
-Há um erro de sintaxe no PHP, para verificar o erro se pode:
+Há um erro de sintaxe no PHP, para verificar o erro se pode:  
+Verificar o arquivo var/log/httpd/error\_log (se tiver ssl ativado, é ssl\_error\_log).
 
-1. verificar o arquivo var/log/httpd/error\_log (se tiver ssl ativado, é ssl\_error\_log).
-2. ativar o display\_errors e error\_logging.
-  
+
+###Ativar o display\_errors e error\_logging.
 
     :::php
     <?php
