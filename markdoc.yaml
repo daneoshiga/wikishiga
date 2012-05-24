@@ -1,6 +1,6 @@
 wiki-name: Wiki Shiga 
 
-wiki-dir: "wiki"
+wiki-dir: "."
 static-dir: ".static"
 
 markdown:
