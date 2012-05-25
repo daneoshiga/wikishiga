@@ -3,7 +3,7 @@ Comandos
 
 Combinações de teclas executadas no modo 'Normal' do vim
 
-###Identar todo o arquivo###
+##Identar todo o arquivo
 
     :::vim
     gg=G
@@ -13,7 +13,7 @@ Combinações de teclas executadas no modo 'Normal' do vim
 * __=__     comando de identação
 * __G__     faz o movimento até o fim do arquivo, o que identa o código
 
-###Shell dentro do vim
+##Shell dentro do vim
 É possível executar comandos do shell dentro do vim, ou abrir um teminal sem
 fechar o vim
 
