@@ -9,3 +9,5 @@ login, ou de pacotes a serem atualizados, só é necessário criar o arquivo
 
     :::bash
     touch ~/.hushlogin
+
+mais informações: man login
