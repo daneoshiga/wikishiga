@@ -33,6 +33,3 @@ posição atual do cursor
 
     :::vim
     !!ls
-
-
-
