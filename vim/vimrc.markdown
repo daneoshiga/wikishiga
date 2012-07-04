@@ -145,11 +145,13 @@ seja possível atualizar os plugins usando o script [vimpire](https://bitbucket.
     " plugin: php-indenting-for-vim git git://github.com/2072/PHP-Indenting-for-VIm.git
     " plugin: tabular git git://github.com/godlygeek/tabular.git
     " plugin: syntastic git git://github.com/scrooloose/syntastic.git
-    " plugin: XDebug-DBGp-client-for-PHP git git://github.com/vim-scripts/XDebug-DBGp-client-for-PHP.git
+    " plugin: IndexedSearch git git://github.com/vim-scripts/IndexedSearch.git
+    " plugin: debugger git git://github.com/vim-scripts/debugger.py.git
+    " plugin: php-doc git git://github.com/vim-scripts/php-doc.git
+    " plugin: AutoComplPop git git://github.com/vim-scripts/AutoComplPop.git
+    " plugin: jquery git git://github.com/vim-scripts/jQuery.git
+    " plugin: numbers git git://github.com/myusuf3/numbers.vim.git
+    " plugin: vim-l9 git git://github.com/clones/vim-l9.git
+    " plugin: matchit git git://github.com/vim-scripts/matchit.zip.git
     " plugin: command-t git git://git.wincent.com/command-t.git
     " run: (cd ruby/command-t ; ruby extconf.rb && make)
-
-    " plugin: php-doc vim http://www.vim.org/scripts/script.php?script_id=1355
-    " plugin: IndexedSearch vim http://www.vim.org/scripts/script.php?script_id=1682
-    " plugin: jquery vim http://www.vim.org/scripts/script.php?script_id=2416
-    " plugin: matchit vim http://www.vim.org/scripts/script.php?script_id=39
