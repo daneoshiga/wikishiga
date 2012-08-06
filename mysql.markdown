@@ -24,3 +24,17 @@ arquivo ~/.my.cnf
 
     #!/bin/bash
     watch -n1 "mysql -ppassw0rd mya2billing -e 'show full processlist'"
+
+###Corrigindo Replicação
+    
+Se houver um erro de query na replicação do mysql, é necessário parar a
+replicação e fazer o servidor que teve problema ignorar a ultima query.
+
+    :::mysql
+    STOP SLAVE;SET GLOBAL SQL_SLAVE_SKIP_COUNTER = 1; START SLAVE;
+
+Depois disso, é necessário checar se a replicação voltou a funcionar com o
+comando:
+
+    :::mysql
+    show slave status\G
