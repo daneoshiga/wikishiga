@@ -38,3 +38,15 @@ comando:
 
     :::mysql
     show slave status\G
+
+###Safe Updates
+
+o modo "safe updates" do mysql ativa uma proteção contra UPDATES ou DELETES sem
+um WHERE, e limita o número de resultados retornados por um select em 1000 (ou
+1 milhão para queries com várias tabelas).
+
+para ativar o "safe update" é necessário chamar o mysql passando o parametro
+--safe-updates, -U, ou "--i-am-a-dummy"
+
+    :::!/bin/bash
+    mysql --safe-updates
