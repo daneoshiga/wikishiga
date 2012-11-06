@@ -23,7 +23,7 @@ arquivo ~/.my.cnf
 ###Acompanhamento processos do mysql
 
     #!/bin/bash
-    watch -n1 "mysql -ppassw0rd mya2billing -e 'show full processlist'"
+    watch -n1 "mysql -p[password] [database] -e 'show full processlist'"
 
 ###Corrigindo Replicação
     
