@@ -7,4 +7,5 @@ Wiki Shiga
 Repositório contendo os arquivos em markdown da minha wiki pessoal, hospedada
 atualmente [aqui](http://wiki.daniloshiga.com "Wiki Shiga")
 
-\*obs: favor ignorar a pasta "media" na wiki
+O principal objetivo da wiki é compilar várias informações, comandos, ou
+truques que eu considero úteis. 
