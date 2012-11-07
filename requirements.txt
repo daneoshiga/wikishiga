@@ -1,0 +1,9 @@
+CherryPy==3.2.2
+Jinja2==2.6
+Markdoc==0.6.6
+Markdown==2.2.1
+PyYAML==3.10
+Pygments==1.5
+WebOb==1.2.3
+argparse==1.2.1
+wsgiref==0.1.2
