@@ -4,6 +4,7 @@ wiki-name: Wiki Shiga
 # Directories
 wiki-dir: "."
 static-dir: ".static"
+template-dir: ".templates"
 
 # Rendering
 markdown:
