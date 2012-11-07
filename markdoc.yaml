@@ -1,8 +1,11 @@
+# Metadata
 wiki-name: Wiki Shiga 
 
+# Directories
 wiki-dir: "."
 static-dir: ".static"
 
+# Rendering
 markdown:
     extensions:
         - codehilite
