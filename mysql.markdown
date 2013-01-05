@@ -50,3 +50,20 @@ para ativar o "safe update" é necessário chamar o mysql passando o parametro
 
     :::!/bin/bash
     mysql --safe-updates
+
+###Dumps comprimidos
+
+É comum compactar os dumps realizados com o mysql para diminuir o tamanho do
+arquivo processado, um bando de alguns Gigas pode facilmente cair para alguns
+megas dependendo dos dados, e não é necessário descompactar os dados antes de
+importá-los novamente no Mysql
+
+Para fazer o dump já compactado:
+
+    :::bash
+    mysqldump -u [uname] -p[pass] [dbname] | gzip -9 > [backupfile.sql.gz]
+
+E para restaurar o dump
+
+    :::bash
+    gunzip < [backupfile.sql.gz] | mysql -u [uname] -p[pass] [dbname]
