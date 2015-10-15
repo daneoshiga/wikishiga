@@ -12,5 +12,5 @@ Verificar o arquivo var/log/httpd/error\_log (se tiver ssl ativado, é ssl\_erro
     :::php
     <?php
     error_reporting(E_ALL);
-    ini_set('display_errors', '1');
+    ini_set('display_errors','1');
     ?>
